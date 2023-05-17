@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(assets/images/background.jpg);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    align-items: center;
+}
+
+.p1{
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.planet{
+    width: 30rem;
+    height: 30rem;
+}
+
+@media screen and (max-width:915px) {
+    .planet{
+        width: 14rem;
+        height: 14rem;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .planet{
+        width: 7.8rem;
+        height: 7.8rem;
+    }
+}
